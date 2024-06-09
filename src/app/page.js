@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <head>
-        <script src="/aframe-master.min.js"></script>
-        <script src="/aframe-ar-nft.js"></script>
+        <script src="./aframe-master.min.js"></script>
+        <script src="./aframe-ar-nft.js"></script>
       </head>
       <main className={styles.main}>
         <div>
@@ -19,7 +19,7 @@ export default function Home() {
           embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'
         >
           <a-nft
-            type='nft' url='/trex/trex-image/trex'
+            type='nft' url='./trex/trex-image/trex'
             smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
             <a-entity
               gltf-model='./trex/scene.gltf'
